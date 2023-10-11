@@ -1,0 +1,1 @@
+1 - Se debe copiar y pegar la cons navigation en el componente real del proyecto y luego en la funcion pasarle el tag que queremos (header, main, footer etc)
