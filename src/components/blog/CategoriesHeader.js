@@ -7,7 +7,7 @@ function CategoriesHeader({ categories }) {
     const location = useLocation()
     const navigate = useNavigate()
 
-    // SEARCH
+
     const [term, setTerm] = useState("");
     const handleChange = (e) => {
         setTerm(e.target.value);
