@@ -93,6 +93,7 @@ const navigation = {
   ],
 }
 
+
 function Footer() {
   return (
     <footer className="bg-gray-50" aria-labelledby="footer-heading">
@@ -176,7 +177,7 @@ function Footer() {
           </div>
         </div>
         <div className="mt-12 border-t border-gray-200 pt-8">
-          <p className="text-base text-gray-400 xl:text-center">&copy; 2023 Your Company, Inc. All rights reserved.</p>
+          <p className="text-base text-gray-400 xl:text-center">&copy; {new Date().getFullYear()} Your Company, Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>
